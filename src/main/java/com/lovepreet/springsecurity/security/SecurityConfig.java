@@ -114,4 +114,19 @@ public class SecurityConfig {
     }
 }
 
+//@Configuration
+//@EnableWebSecurity
+//@EnableMethodSecurity
+//public class SecurityConfig {
+//
+//
+//    @Bean
+//    SecurityFilterChain defaultSecurityFilterChain(HttpSecurity http) throws Exception {
+//        http.authorizeHttpRequests((requests) -> requests.anyRequest().authenticated());
+//        http.oauth2Login(Customizer.withDefaults());
+//        return http.build();
+//    }
+//
+//}
+
 
